@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(15, 15, 15), rgb(36, 6, 119));
+}
+
+.student-container {
+    width: 500px;
+    height: auto;
+    background-color: orangered;
+    margin: 20px 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-left: 0.5px solid rgb(253, 250, 250);
+    margin-top: 10px;
+}
+
+.btn input {
+    width: 40%;
+    margin: 20px;
+    border: none;
+    background-color: darkblue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    transform: scale(0.97);
+    box-shadow: 0px 0px 10px rgb(130, 130, 235);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.student-data {
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+    background-color: rgb(252, 249, 248);
+    margin-left: 10%;
+
+}
+
+#tb-btn1 {
+    background-color: rgb(20, 17, 240);
+    margin-left: 5px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#tb-btn2 {
+    background-color: rgb(250, 10, 10);
+    margin-right: -50px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
